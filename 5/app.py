@@ -16,6 +16,8 @@ def minimum(*args) -> int:
     expanded = list()
     while len(stack) > 0:
         elem = stack.pop()
+        if isinstance(elem, str):
+            expanded.append(elem)
         if isinstance(elem, Iterable):
             if isinstance(elem, dict):
                 stack += elem.items()
