@@ -1,3 +1,6 @@
+# Operator overloading
+
+## Formulation
 Think of a several sensible situations to overload arithmetic and comparison with classes.
 Matrix, fractional algebra, user collections.
 
